@@ -50,58 +50,61 @@
     </div>
 
 <!-- Content Section -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-12">
-              <!-- Left Box -->
-              <div class="box">
-                <h3 class="title">Summary: Latitude vs. X</h3>
-                <hr>
-                <img src="Resources/Assets/Images/Fig1.png" alt="Latitude vs Max Temperature" class="description-img">
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+<div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-12">
+        <!-- Left box  -->
+        <div class="box">
+          <h3 class="title">Humidity</h3>
+          <hr>
+          <img src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+          <p>Humidity does not show a strong correlation to latitude. There is no discernable trend between the two.</p>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12">
+        <!-- Right Box -->
+        <div class="box">
+          <h4 class="title">Visualizations</h4>
+          <hr>
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <a href="max_temperature.html">
+                  <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="humidity.html">
+                  <img class="panel active" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+                </a>
               </div>
             </div>
-            <div class="col-lg-5 col-md-12">
-            <!-- Right Box -->
-              <div class="box">
-                <h4 class="title">Visualizations</h4>
-                <hr>
 
-                <div class="container">
-                  <div class="row">
-                    <div class="col-6">
-                      <a href="max_temp.html">
-                        <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
-                      </a>
-                    </div>
-                    <div class="col-6">
-                      <a href="humidity.html">
-                        <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
-                      </a>
-                    </div>
-                  </div>
-                <div class="row">
-                  <div class="col-6">
-                    <a href="cloudiness.html">
-                      <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
-                    </a>
-                  </div>
-                  <div class="col-6">
-                    <a href="wind_speed.html">
-                      <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
-                    </a>
-                  </div>
-           
-          </div>  
+            <div class="row">
+              <div class="col-6">
+                <a href="cloudiness.html">
+                  <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="wind_speed.html">
+                  <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+
+
         </div>
-
       </div>
     </div>
   </div>
-</div>
-  
-<!-- Footer Section -->
+
+  <!-- Footer Section -->
   <footer>
     <div class="footer">&copy; Copyright Coding Bootcamp 2020</div>
   </footer>
