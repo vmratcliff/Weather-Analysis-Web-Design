@@ -128,7 +128,7 @@ footer{
     background-color: #666666; 
     border-top-style: solid; 
     border-top-width: 5px; 
-    border-top-color: #0BADA6;
+    border-top-color: #3DB6B4;
     color: white; 
     min-height: 55px; 
     font-family: Arial, Helvetica, sans-serif;
@@ -140,3 +140,26 @@ footer{
     width: 100%;
     padding-top: 15px; 
     }
+
+/* Media Queries */
+@media(max-width: 900px){
+    .navbar-expand-lg{
+    background-color: #3DB6B4;
+    }
+    .navbar{
+      max-height: none; 
+      padding: inherit;
+    }
+    .navbar div{
+      margin: inherit; 
+      background-color: white;  
+    }
+    .navbar-brand{padding: 10px;}
+    
+    button{margin-right: 30px;}
+    
+    button:focus {
+      outline: 1px solid;
+      outline: 5px auto -webkit-focusring-color;
+      }
+}
